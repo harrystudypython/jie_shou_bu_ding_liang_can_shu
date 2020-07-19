@@ -8,6 +8,6 @@ import os
 import re
 
 def py_main(argv):
-    print "receive is "
+    print "receive is ",sys.argv[0],sys.argv[1],sys.argv[2]
 if __name__ == "__main__":
     py_main(sys.argv)
