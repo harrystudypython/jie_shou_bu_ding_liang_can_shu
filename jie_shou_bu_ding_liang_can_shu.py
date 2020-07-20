@@ -11,6 +11,8 @@ import re
 def py_main(argv):
     print " below is Statistics for input values  "
     print len(sys.argv)
-    print "receive is ",sys.argv[0],sys.argv[1],sys.argv[2]
+    receiver_count=len(sys.argv)
+    for receive_num in range(0,receiver_count):
+        print "rece_value is ",sys.argv[receive_num]
 if __name__ == "__main__":
     py_main(sys.argv)
